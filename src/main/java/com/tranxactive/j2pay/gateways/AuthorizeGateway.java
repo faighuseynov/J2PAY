@@ -39,6 +39,7 @@ public class AuthorizeGateway extends Gateway {
         HTTPResponse httpResponse;
 
         int result;
+        int a;
 
         httpResponse = HTTPClient.httpPost(this.getApiURL(), requestString, ContentType.APPLICATION_XML);
 
